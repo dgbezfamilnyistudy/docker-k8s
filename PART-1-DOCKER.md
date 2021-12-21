@@ -146,7 +146,7 @@ docker container run --name demo -it {{ os-registry }}/alpine:3.14
 /# exit 
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как посмотреть контейнеры и удалить?"
 ```shell
 docker container ls [--all]
 docker container rm [--force] demo
