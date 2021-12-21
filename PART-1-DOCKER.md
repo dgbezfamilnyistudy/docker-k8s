@@ -138,7 +138,7 @@ docker image pull {{ os-registry }}/alpine:3.14
 docker system df
 ````
 
-- Сценарий "Как ...?"
+- Сценарий "Как посмотреть запущенные контейнеры и запустить контейнер?"
 ```shell
 docker container ls [--all]
 docker container run --name demo -it {{ os-registry }}/alpine:3.14
