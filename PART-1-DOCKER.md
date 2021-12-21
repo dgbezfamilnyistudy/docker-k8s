@@ -132,7 +132,7 @@ docker logout
 docker login {{ registry-host }}
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как скачать image?"
 ```shell
 docker image pull {{ os-registry }}/alpine:3.14
 docker system df
