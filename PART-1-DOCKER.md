@@ -126,7 +126,7 @@ docker system info
 docker system df
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как золигиниться в docker registry?"
 ```shell
 docker logout
 docker login {{ registry-host }}
